@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'JSON.PE - Consulta DNI y RUC',
+    'name': 'Json.pe - Consulta DNI y RUC',
     'version': '17.0.1.0.0',
     'category': 'Localization/Peru',
     'summary': 'Integración con API de json.pe para consultar DNI y RUC peruanos',
