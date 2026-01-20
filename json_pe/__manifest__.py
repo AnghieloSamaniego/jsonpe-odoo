@@ -18,6 +18,9 @@
     'website': 'https://json.pe',
     'license': 'LGPL-3',
     'icon': 'static/description/icon.png',
+    'images': [
+        'static/description/cover.png',
+    ],
     'depends': [
         'base',
         'contacts',
