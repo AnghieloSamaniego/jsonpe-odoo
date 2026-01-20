@@ -20,7 +20,7 @@
                                     <span class="o_setting_name">API Token</span>
                                     <div class="text-muted">
                                         Token de autenticación para la API de json.pe.
-                                        Obtén tu token en <a href="https://json.pe" target="_blank">json.pe</a>
+                                        Crea tu cuenta y obtén tu token en <a href="https://app.json.pe" target="_blank">app.json.pe</a>
                                     </div>
                                     <div class="content-group">
                                         <div class="mt16">

@@ -10,6 +10,6 @@ class ResConfigSettings(models.TransientModel):
         string='API Token JSON.PE',
         config_parameter='json_pe.api_token',
         help='Token de autenticación para la API de json.pe. '
-             'Obtén tu token en https://json.pe',
+             'Crea tu cuenta y obtén tu token en https://app.json.pe',
         required=False,
     )

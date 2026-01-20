@@ -14,9 +14,10 @@
         * Autocompletado de campos del partner con la información obtenida
         * Manejo de errores y mensajes informativos
     """,
-    'author': 'JSONPE',
+    'author': 'Json.pe',
     'website': 'https://json.pe',
     'license': 'LGPL-3',
+    'icon': 'static/description/icon.png',
     'depends': [
         'base',
         'contacts',

@@ -1,0 +1,152 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">JSON.PE - Consulta DNI y RUC</h2>
+        <h3 class="oe_slogan">Integración con API de json.pe para consultar DNI y RUC peruanos</h3>
+        <div class="oe_span12">
+            <div class="oe_demo oe_picture oe_screenshot">
+                <img src="cover.png" alt="JSON.PE Cover" style="width: 100%;"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Descripción</h2>
+        <div class="oe_span12">
+            <p class="oe_mt32">
+                Este módulo integra Odoo con la API de <strong>json.pe</strong> para consultar información de DNI y RUC peruanos directamente desde el formulario de contactos (Partners). Permite autocompletar automáticamente los datos del contacto con la información obtenida de la API.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Características principales</h2>
+        <div class="oe_span12">
+            <ul>
+                <li><strong>Consulta de DNI:</strong> Consulta información de Documento Nacional de Identidad desde el formulario de Partner</li>
+                <li><strong>Consulta de RUC:</strong> Consulta información de Registro Único de Contribuyente desde el formulario de Partner</li>
+                <li><strong>Autocompletado automático:</strong> Los campos del partner se completan automáticamente con la información obtenida</li>
+                <li><strong>Validación de formatos:</strong> Validación automática de formatos (DNI: 8 dígitos, RUC: 11 dígitos)</li>
+                <li><strong>Configuración sencilla:</strong> Configuración del API Token desde Configuración General</li>
+                <li><strong>Manejo de errores:</strong> Mensajes informativos y manejo robusto de errores</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Configuración del API Token</h2>
+        <div class="oe_span12">
+            <p class="oe_mt32">
+                Antes de usar el módulo, es necesario crear una cuenta en app.json.pe y obtener tu API Token:
+            </p>
+            
+            <h3 class="oe_mt32">Paso 1: Crear cuenta en app.json.pe</h3>
+            <ol>
+                <li>Visita <a href="https://app.json.pe" target="_blank"><strong>https://app.json.pe</strong></a></li>
+                <li>Haz clic en <strong>Registrarse</strong> o <strong>Crear cuenta</strong></li>
+                <li>Completa el formulario de registro con tus datos</li>
+                <li>Verifica tu cuenta siguiendo las instrucciones que recibirás por correo electrónico</li>
+                <li>Inicia sesión en tu cuenta</li>
+            </ol>
+            
+            <h3 class="oe_mt32">Paso 2: Obtener el API Token</h3>
+            <ol>
+                <li>Una vez dentro de tu cuenta en app.json.pe, navega a la sección de <strong>API Tokens</strong> o <strong>Tokens</strong></li>
+                <li>Haz clic en <strong>Generar Token</strong> o <strong>Crear nuevo token</strong></li>
+                <li>Copia el token generado (guárdalo en un lugar seguro, ya que no podrás verlo nuevamente)</li>
+            </ol>
+            
+            <h3 class="oe_mt32">Paso 3: Configurar el token en Odoo</h3>
+            <ol>
+                <li>Ve a <strong>Configuración</strong> → <strong>Configuración General</strong></li>
+                <li>Busca la sección <strong>JSON.PE - Consulta DNI y RUC</strong></li>
+                <li>En el campo <strong>API Token</strong>, pega el token que copiaste desde app.json.pe</li>
+                <li>Haz clic en <strong>Guardar</strong></li>
+            </ol>
+            
+            <p class="oe_mt16">
+                <em>Nota: Si no tienes una cuenta, créala en <a href="https://app.json.pe" target="_blank">https://app.json.pe</a></em>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Uso de los Botones DNI/RUC</h2>
+        <div class="oe_span6">
+            <h3>Consultar DNI</h3>
+            <ol>
+                <li>Abre o crea un contacto (Partner) en Odoo</li>
+                <li>Ingresa el <strong>DNI</strong> (8 dígitos) en el campo correspondiente</li>
+                <li>Haz clic en el botón <strong>"Consultar DNI"</strong> ubicado en el encabezado del formulario</li>
+                <li>El sistema consultará la API y autocompletará automáticamente los campos</li>
+            </ol>
+        </div>
+        <div class="oe_span6">
+            <h3>Consultar RUC</h3>
+            <ol>
+                <li>Abre o crea un contacto (Partner) en Odoo</li>
+                <li>Ingresa el <strong>RUC</strong> (11 dígitos) en el campo correspondiente</li>
+                <li>Haz clic en el botón <strong>"Consultar RUC"</strong> ubicado en el encabezado del formulario</li>
+                <li>El sistema consultará la API y autocompletará automáticamente los campos</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">¿Por qué elegir json.pe?</h2>
+        <div class="oe_span12">
+            <div class="oe_span6">
+                <h3>Datos Completos</h3>
+                <p>Acceso a información exacta: Excelente para validar datos</p>
+            </div>
+            <div class="oe_span6">
+                <h3>Respuesta Rápida</h3>
+                <p>Tiempo de respuesta promedio menor a 200ms para consultas instantáneas</p>
+            </div>
+            <div class="oe_span6">
+                <h3>Seguro y Confiable</h3>
+                <p>Autenticación Bearer Token y conexiones HTTPS encriptadas</p>
+            </div>
+            <div class="oe_span6">
+                <h3>99.9% Uptime</h3>
+                <p>Infraestructura robusta con disponibilidad garantizada las 24/7</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Requisitos</h2>
+            <ul>
+                <li>Odoo 17.0</li>
+                <li>Módulo <code>contacts</code> instalado</li>
+                <li>Biblioteca Python <code>requests</code></li>
+                <li>Conexión a internet</li>
+                <li>API Token válido de json.pe</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Enlaces</h2>
+            <p class="oe_mt32 text-center">
+                <a href="https://json.pe" target="_blank" class="btn btn-primary btn-lg">Visitar json.pe</a>
+                <a href="https://json.pe/docs" target="_blank" class="btn btn-primary btn-lg">Documentación</a>
+            </p>
+        </div>
+    </div>
+</section>

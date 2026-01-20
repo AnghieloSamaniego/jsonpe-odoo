@@ -15,14 +15,30 @@ Este módulo integra Odoo con la API de **json.pe** para consultar información 
 
 ## Configuración del API Token
 
-Antes de usar el módulo, es necesario configurar tu API Token de json.pe:
+Antes de usar el módulo, es necesario crear una cuenta en app.json.pe y obtener tu API Token:
+
+### Paso 1: Crear cuenta en app.json.pe
+
+1. Visita [https://app.json.pe](https://app.json.pe)
+2. Haz clic en **Registrarse** o **Crear cuenta**
+3. Completa el formulario de registro con tus datos
+4. Verifica tu cuenta siguiendo las instrucciones que recibirás por correo electrónico
+5. Inicia sesión en tu cuenta
+
+### Paso 2: Obtener el API Token
+
+1. Una vez dentro de tu cuenta en app.json.pe, navega a la sección de **API Tokens** o **Tokens**
+2. Haz clic en **Generar Token** o **Crear nuevo token**
+3. Copia el token generado (guárdalo en un lugar seguro, ya que no podrás verlo nuevamente)
+
+### Paso 3: Configurar el token en Odoo
 
 1. Ve a **Configuración** (Settings) → **Configuración General** (General Settings)
 2. Busca la sección **JSON.PE - Consulta DNI y RUC**
-3. En el campo **API Token**, ingresa tu token de autenticación
+3. En el campo **API Token**, pega el token que copiaste desde app.json.pe
 4. Haz clic en **Guardar** (Save)
 
-> **Nota:** Si no tienes un API Token, puedes obtenerlo en [https://json.pe](https://json.pe)
+> **Nota:** Si no tienes una cuenta, créala en [https://app.json.pe](https://app.json.pe)
 
 ---
 

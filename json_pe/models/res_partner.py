@@ -54,7 +54,7 @@ class ResPartner(models.Model):
         if not api_token:
             raise UserError(_(
                 'No se ha configurado el API Token de json.pe. '
-                'Por favor, configúralo en Configuración > Configuración General.'
+                'Por favor, crea tu cuenta en app.json.pe, obtén tu token y configúralo en Configuración > Configuración General.'
             ))
 
         url = f'https://api.json.pe/api/{endpoint}'
