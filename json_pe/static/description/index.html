@@ -5,74 +5,79 @@
     <title>JSON.PE - Consulta DNI y RUC</title>
 </head>
 <body>
+    <!-- Hero Section -->
     <section class="oe_container">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">JSON.PE - Consulta DNI y RUC</h2>
-                <h3 class="oe_slogan">Integración con API de json.pe para consultar DNI y RUC peruanos</h3>
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 42px; font-weight: 700; margin-bottom: 10px;">JSON.PE - Consulta DNI y RUC</h2>
+                <h3 class="oe_slogan" style="font-size: 20px; color: #666; font-weight: 300; margin-bottom: 30px;">Integración con API de json.pe para consultar DNI y RUC peruanos</h3>
             </div>
             <div class="oe_span12">
                 <div class="oe_demo oe_picture oe_screenshot">
-                    <img src="portada.png" alt="JSON.PE Portada" style="width: 100%;"/>
+                    <img src="portada.png" alt="JSON.PE Portada" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Descripción -->
     <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">Descripción del Módulo</h2>
-                <p class="oe_mt32 text-justify" style="font-size: 16px;">
-                    Este módulo integra Odoo con la API de <strong>json.pe</strong>, permitiendo consultar información de DNI y RUC peruanos directamente desde el formulario de contactos (Partners). Con esta integración, puedes autocompletar automáticamente los datos del contacto con información actualizada obtenida de la API oficial.
-                </p>
-                <p class="oe_mt16 text-justify" style="font-size: 16px;">
-                    Optimiza tu flujo de trabajo eliminando la necesidad de ingresar manualmente la información de tus clientes y proveedores. El módulo valida formatos, maneja errores de manera inteligente y proporciona mensajes claros para una experiencia de usuario fluida.
-                </p>
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 32px; font-weight: 600; margin-bottom: 30px;">Descripción del Módulo</h2>
+                <div class="oe_span12" style="max-width: 900px; margin: 0 auto;">
+                    <p class="oe_mt32" style="font-size: 17px; line-height: 1.8; color: #f0f0f0; text-align: center;">
+                        Este módulo integra Odoo con la API de <strong style="color: #fff;">json.pe</strong>, permitiendo consultar información de DNI y RUC peruanos directamente desde el formulario de contactos (Partners). Con esta integración, puedes autocompletar automáticamente los datos del contacto con información actualizada obtenida de la API oficial.
+                    </p>
+                    <p class="oe_mt16" style="font-size: 17px; line-height: 1.8; color: #f0f0f0; text-align: center;">
+                        Optimiza tu flujo de trabajo eliminando la necesidad de ingresar manualmente la información de tus clientes y proveedores. El módulo valida formatos, maneja errores de manera inteligente y proporciona mensajes claros para una experiencia de usuario fluida.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="oe_container oe_dark">
+    <!-- Configuración del API Token - FONDO BLANCO -->
+    <section class="oe_container">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">Configuración del API Token</h2>
-                <p class="oe_mt32 text-center" style="font-size: 16px;">
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 32px; font-weight: 600; margin-bottom: 15px;">Configuración del API Token</h2>
+                <p class="oe_mt32 text-center" style="font-size: 18px; color: #666; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
                     Antes de usar el módulo, es necesario crear una cuenta en app.json.pe y obtener tu API Token.
                 </p>
             </div>
             <div class="oe_span12">
-                <div class="oe_row">
-                    <div class="oe_span4" style="padding: 25px; margin-bottom: 20px; background: rgba(255,255,255,0.1); border-radius: 12px; border: 2px solid rgba(135,90,123,0.3); transition: all 0.3s;">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
-                            <div style="width: 60px; height: 60px; background: #875A7B; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-                                <span style="font-size: 28px; color: white; font-weight: bold;">1</span>
+                <div class="oe_row" style="max-width: 1200px; margin: 0 auto;">
+                    <div class="oe_span4" style="padding: 30px; margin-bottom: 30px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(135,90,123,0.15); border: 1px solid #e0e0e0; transition: transform 0.3s, box-shadow 0.3s;">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 25px;">
+                            <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 4px 10px rgba(135,90,123,0.3);">
+                                <span style="font-size: 32px; color: white; font-weight: bold;">1</span>
                             </div>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px;"><b>Crear Cuenta</b></h4>
-                        <p class="text-justify" style="margin: 0; line-height: 1.6;">
-                            Visita <a href="https://app.json.pe" target="_blank" style="color: #875A7B; font-weight: bold;"><strong>app.json.pe</strong></a>, regístrate completando el formulario y verifica tu cuenta mediante el correo electrónico recibido.
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 18px; font-size: 20px; font-weight: 600;"><b>Crear Cuenta</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #555; font-size: 15px;">
+                            Visita <a href="https://app.json.pe/" target="_blank" style="color: #875A7B; font-weight: bold; text-decoration: none;"><strong>app.json.pe</strong></a>, regístrate completando el formulario y verifica tu cuenta mediante el correo electrónico recibido.
                         </p>
                     </div>
-                    <div class="oe_span4" style="padding: 25px; margin-bottom: 20px; background: rgba(255,255,255,0.1); border-radius: 12px; border: 2px solid rgba(135,90,123,0.3); transition: all 0.3s;">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
-                            <div style="width: 60px; height: 60px; background: #875A7B; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-                                <span style="font-size: 28px; color: white; font-weight: bold;">2</span>
+                    <div class="oe_span4" style="padding: 30px; margin-bottom: 30px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(135,90,123,0.15); border: 1px solid #e0e0e0; transition: transform 0.3s, box-shadow 0.3s;">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 25px;">
+                            <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 4px 10px rgba(135,90,123,0.3);">
+                                <span style="font-size: 32px; color: white; font-weight: bold;">2</span>
                             </div>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px;"><b>Obtener Token</b></h4>
-                        <p class="text-justify" style="margin: 0; line-height: 1.6;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 18px; font-size: 20px; font-weight: 600;"><b>Obtener Token</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #555; font-size: 15px;">
                             Inicia sesión en tu cuenta, navega a la sección de <strong>API Tokens</strong> y genera un nuevo token. Copia y guarda el token de manera segura.
                         </p>
                     </div>
-                    <div class="oe_span4" style="padding: 25px; margin-bottom: 20px; background: rgba(255,255,255,0.1); border-radius: 12px; border: 2px solid rgba(135,90,123,0.3); transition: all 0.3s;">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
-                            <div style="width: 60px; height: 60px; background: #875A7B; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-                                <span style="font-size: 28px; color: white; font-weight: bold;">3</span>
+                    <div class="oe_span4" style="padding: 30px; margin-bottom: 30px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(135,90,123,0.15); border: 1px solid #e0e0e0; transition: transform 0.3s, box-shadow 0.3s;">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 25px;">
+                            <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 4px 10px rgba(135,90,123,0.3);">
+                                <span style="font-size: 32px; color: white; font-weight: bold;">3</span>
                             </div>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px;"><b>Configurar en Odoo</b></h4>
-                        <p class="text-justify" style="margin: 0; line-height: 1.6;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 18px; font-size: 20px; font-weight: 600;"><b>Configurar en Odoo</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #555; font-size: 15px;">
                             Ve a <strong>Configuración → Configuración General</strong>, busca la sección <strong>JSON.PE</strong> y pega tu API Token. Guarda los cambios.
                         </p>
                     </div>
@@ -81,68 +86,69 @@
         </div>
     </section>
 
-    <section class="oe_container">
+    <!-- Características Principales -->
+    <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">Características Principales</h2>
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 32px; font-weight: 600; margin-bottom: 40px;">Características Principales</h2>
             </div>
             <div class="oe_span12">
-                <div class="oe_row">
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                <div class="oe_row" style="max-width: 1200px; margin: 0 auto;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-id-card fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Consulta de DNI</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Consulta de DNI</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Consulta información completa del Documento Nacional de Identidad directamente desde el formulario de Partner. Obtén automáticamente el nombre completo y dirección del titular.
                         </p>
                     </div>
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-building fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Consulta de RUC</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Consulta de RUC</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Consulta información detallada del Registro Único de Contribuyente, incluyendo razón social, dirección fiscal, distrito, provincia y código de ubicación geográfica (Ubigeo).
                         </p>
                     </div>
                 </div>
-                <div class="oe_row">
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                <div class="oe_row" style="max-width: 1200px; margin: 0 auto;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-magic fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Autocompletado Automático</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Autocompletado Automático</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Los campos del partner se completan automáticamente con la información obtenida de la API, ahorrando tiempo y reduciendo errores de tipeo.
                         </p>
                     </div>
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-check-circle fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Validación de Formatos</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Validación de Formatos</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Validación automática de formatos antes de consultar (DNI: 8 dígitos, RUC: 11 dígitos), garantizando consultas exitosas desde el primer intento.
                         </p>
                     </div>
                 </div>
-                <div class="oe_row">
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                <div class="oe_row" style="max-width: 1200px; margin: 0 auto;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-cog fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Configuración Sencilla</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Configuración Sencilla</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Configuración del API Token directamente desde Configuración General, sin necesidad de editar archivos o código.
                         </p>
                     </div>
-                    <div class="oe_span6" style="padding: 20px; margin-bottom: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                        <div class="oe_row_img oe_centered" style="margin-bottom: 16px;">
+                    <div class="oe_span6" style="padding: 30px; margin-bottom: 25px; background: rgba(255,255,255,0.08); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <div class="oe_row_img oe_centered" style="margin-bottom: 20px;">
                             <span class="fa fa-shield fa-3x" style="color: #875A7B;"></span>
                         </div>
-                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 12px;"><b>Manejo Inteligente de Errores</b></h4>
-                        <p class="text-justify" style="margin: 0;">
+                        <h4 class="text-center" style="color: #875A7B; margin-bottom: 15px; font-size: 20px; font-weight: 600;"><b>Manejo Inteligente de Errores</b></h4>
+                        <p class="text-justify" style="margin: 0; line-height: 1.7; color: #f0f0f0; font-size: 15px;">
                             Mensajes informativos y manejo robusto de errores para identificar y resolver problemas de manera eficiente.
                         </p>
                     </div>
@@ -151,74 +157,80 @@
         </div>
     </section>
 
+    <!-- Cómo Usar los Botones -->
     <section class="oe_container">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">Cómo Usar los Botones DNI/RUC</h2>
-            </div>
-            <div class="oe_span6">
-                <div class="panel panel-default">
-                    <div class="panel-heading" style="background-color: #875A7B; color: white;">
-                        <h4 class="panel-title text-center"><strong>Consultar DNI</strong></h4>
-                    </div>
-                    <div class="panel-body">
-                        <ol style="padding-left: 20px;">
-                            <li>Abre o crea un contacto (Partner) en Odoo</li>
-                            <li>Ingresa el <strong>DNI</strong> (8 dígitos) en el campo correspondiente</li>
-                            <li>Haz clic en el botón <strong>"Consultar DNI"</strong> ubicado en el encabezado del formulario</li>
-                            <li>El sistema consultará la API y autocompletará automáticamente:
-                                <ul>
-                                    <li>Nombre completo</li>
-                                    <li>Dirección (si está disponible)</li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <div class="oe_span6">
-                <div class="panel panel-default">
-                    <div class="panel-heading" style="background-color: #875A7B; color: white;">
-                        <h4 class="panel-title text-center"><strong>Consultar RUC</strong></h4>
-                    </div>
-                    <div class="panel-body">
-                        <ol style="padding-left: 20px;">
-                            <li>Abre o crea un contacto (Partner) en Odoo</li>
-                            <li>Ingresa el <strong>RUC</strong> (11 dígitos) en el campo correspondiente</li>
-                            <li>Haz clic en el botón <strong>"Consultar RUC"</strong> ubicado en el encabezado del formulario</li>
-                            <li>El sistema consultará la API y autocompletará automáticamente:
-                                <ul>
-                                    <li>Nombre o Razón Social</li>
-                                    <li>Número de identificación fiscal (VAT)</li>
-                                    <li>Dirección completa</li>
-                                    <li>Ciudad/Distrito</li>
-                                    <li>Código postal (Ubigeo)</li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 32px; font-weight: 600; margin-bottom: 40px;">Cómo Usar los Botones DNI/RUC</h2>
             </div>
             <div class="oe_span12">
-                <p class="oe_mt32 text-center">
-                    <em><strong>Nota:</strong> Los botones solo aparecerán si has ingresado un DNI o RUC válido en el formulario.</em>
-                </p>
+                <div class="oe_row" style="max-width: 1200px; margin: 0 auto;">
+                    <div class="oe_span6">
+                        <div style="background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #e0e0e0;">
+                            <div style="background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); color: white; padding: 20px; text-align: center;">
+                                <h4 style="margin: 0; font-size: 22px; font-weight: 600;"><strong>Consultar DNI</strong></h4>
+                            </div>
+                            <div style="padding: 30px;">
+                                <ol style="padding-left: 25px; margin: 0; line-height: 2; color: #555; font-size: 15px;">
+                                    <li>Abre o crea un contacto (Partner) en Odoo</li>
+                                    <li>Ingresa el <strong>DNI</strong> (8 dígitos) en el campo correspondiente</li>
+                                    <li>Haz clic en el botón <strong>"Consultar DNI"</strong> ubicado en el encabezado del formulario</li>
+                                    <li>El sistema consultará la API y autocompletará automáticamente:
+                                        <ul style="margin-top: 10px;">
+                                            <li>Nombre completo</li>
+                                            <li>Dirección (si está disponible)</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe_span6">
+                        <div style="background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #e0e0e0;">
+                            <div style="background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); color: white; padding: 20px; text-align: center;">
+                                <h4 style="margin: 0; font-size: 22px; font-weight: 600;"><strong>Consultar RUC</strong></h4>
+                            </div>
+                            <div style="padding: 30px;">
+                                <ol style="padding-left: 25px; margin: 0; line-height: 2; color: #555; font-size: 15px;">
+                                    <li>Abre o crea un contacto (Partner) en Odoo</li>
+                                    <li>Ingresa el <strong>RUC</strong> (11 dígitos) en el campo correspondiente</li>
+                                    <li>Haz clic en el botón <strong>"Consultar RUC"</strong> ubicado en el encabezado del formulario</li>
+                                    <li>El sistema consultará la API y autocompletará automáticamente:
+                                        <ul style="margin-top: 10px;">
+                                            <li>Nombre o Razón Social</li>
+                                            <li>Número de identificación fiscal (VAT)</li>
+                                            <li>Dirección completa</li>
+                                            <li>Ciudad/Distrito</li>
+                                            <li>Código postal (Ubigeo)</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oe_span12" style="margin-top: 30px;">
+                    <p class="text-center" style="color: #666; font-size: 15px; font-style: italic;">
+                        <strong>Nota:</strong> Los botones solo aparecerán si has ingresado un DNI o RUC válido en el formulario.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Enlaces y Recursos -->
     <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan" style="color:#875A7B;">Enlaces y Recursos</h2>
+                <h2 class="oe_slogan" style="color:#875A7B; font-size: 32px; font-weight: 600; margin-bottom: 40px;">Enlaces y Recursos</h2>
                 <p class="oe_mt32 text-center">
-                    <a href="https://app.json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background-color: #875A7B; border-color: #875A7B; margin: 10px; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; transition: all 0.3s;">
+                    <a href="https://app.json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border: none; margin: 10px; padding: 15px 30px; border-radius: 8px; text-decoration: none; display: inline-block; transition: all 0.3s; color: white; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(135,90,123,0.3);">
                         <i class="fa fa-user-plus"></i> Crear Cuenta en app.json.pe
                     </a>
-                    <a href="http://json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background-color: #875A7B; border-color: #875A7B; margin: 10px; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; transition: all 0.3s;">
+                    <a href="http://json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border: none; margin: 10px; padding: 15px 30px; border-radius: 8px; text-decoration: none; display: inline-block; transition: all 0.3s; color: white; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(135,90,123,0.3);">
                         <i class="fa fa-globe"></i> Visitar json.pe
                     </a>
-                    <a href="https://docs.json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background-color: #875A7B; border-color: #875A7B; margin: 10px; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; transition: all 0.3s;">
+                    <a href="https://docs.json.pe/" target="_blank" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, #875A7B 0%, #a67ba6 100%); border: none; margin: 10px; padding: 15px 30px; border-radius: 8px; text-decoration: none; display: inline-block; transition: all 0.3s; color: white; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(135,90,123,0.3);">
                         <i class="fa fa-book"></i> Documentación
                     </a>
                 </p>
