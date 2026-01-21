@@ -51,7 +51,6 @@ Antes de usar el módulo, es necesario crear una cuenta en app.json.pe y obtener
 3. Haz clic en el botón **"Consultar DNI"** ubicado en el encabezado del formulario
 4. El sistema consultará la API y autocompletará automáticamente:
    - Nombre completo
-   - Dirección (si está disponible)
 
 ### Consultar RUC
 
@@ -60,7 +59,7 @@ Antes de usar el módulo, es necesario crear una cuenta en app.json.pe y obtener
 3. Haz clic en el botón **"Consultar RUC"** ubicado en el encabezado del formulario
 4. El sistema consultará la API y autocompletará automáticamente:
    - Nombre o Razón Social
-   - Número de identificación fiscal (VAT)
+   - Número de identificación fiscal (RUC)
    - Dirección completa
    - Ciudad/Distrito
    - Código postal (Ubigeo)
